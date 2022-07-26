@@ -9,7 +9,7 @@
 <body>
     <input type="button" onclick="alert('웹뷰입니다.')" value="Alert"/><br/>
     <input type="button" onclick="Mobile.showToast('웹뷰입니다.')" value="토스트 메세지"/><br/>
-    <input type="button" onclick="document.getElementById('result').innerHTML = Mobile.whoau().stringify()" value="whoau() 함수 실행"/><br/>
+    <input type="button" onclick="document.getElementById('result').innerHTML = JSON.stringify(Mobile.whoau())" value="whoau() 함수 실행"/><br/>
     <div id="result">
         
     </div>
