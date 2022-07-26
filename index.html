@@ -7,6 +7,10 @@
     <title>웹뷰 테스스트</title>
 </head>
 <body>
-    <input type="button" onclick="alert('웹뷰입니다.')" value="Alert"/>
-    <input type="button" onclick="Mobile.showToast('웹뷰입니다.')" value="토스트 메세지"/>
+    <input type="button" onclick="alert('웹뷰입니다.')" value="Alert"/><br/>
+    <input type="button" onclick="Mobile.showToast('웹뷰입니다.')" value="토스트 메세지"/><br/>
+    <input type="button" onclick="document.getElementById('result').innerHTML = Mobile.whoau()" value="whoau() 함수 실행"/><br/>
+    <div id="result">
+        
+    </div>
 </html>
